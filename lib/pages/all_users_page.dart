@@ -1,6 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_firebase_crud_tut/pages/add_user_page.dart';
+import 'package:flutter_firebase_crud_tut/pages/single_user_page.dart';
 
 import '../models/user.dart';
 
@@ -35,13 +36,29 @@ class UsersPage extends StatelessWidget {
           }
         },
       ),
-      floatingActionButton: FloatingActionButton(
-          onPressed: () {
-            Navigator.of(context).push(MaterialPageRoute(
-              builder: (context) => const AddUserPage(),
-            ));
-          },
-          child: const Icon(Icons.add)),
+      floatingActionButton: Column(
+        mainAxisAlignment: MainAxisAlignment.end,
+        children: [
+          FloatingActionButton(
+              onPressed: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) => const AddUserPage(),
+                ));
+              },
+              child: const Icon(Icons.add)),
+          const SizedBox(height: 10),
+          FloatingActionButton(
+              backgroundColor: Colors.green,
+              onPressed: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) => const SingleUser(),
+                ));
+              },
+              child: const Icon(
+                Icons.search,
+              )),
+        ],
+      ),
     );
   }
 
