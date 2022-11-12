@@ -1,16 +1,11 @@
 # flutter_firebase_crud_tut
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+![Screenshot_1668214029](https://user-images.githubusercontent.com/88621342/201448559-4316de30-bd57-4dca-ac14-9df62693eff6.png)
 
-A few resources to get you started if this is your first Flutter project:
+![Screenshot_1668214025](https://user-images.githubusercontent.com/88621342/201448563-841e97b8-fd52-4279-8462-872fd0d4cc96.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![Screenshot_1668214022](https://user-images.githubusercontent.com/88621342/201448568-57f6381d-8f2b-4594-a51b-1729d14d11fc.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_1668214019](https://user-images.githubusercontent.com/88621342/201448573-0c02c192-edf3-4bef-ba82-72045b9f8ad6.png)
